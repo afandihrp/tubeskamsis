@@ -10,7 +10,7 @@ $pass = $_GET['password'] ?? '';
 $sql = "SELECT id, password FROM accounts WHERE username = '$user' AND password = '$pass'";
 $res = mysqli_query($con, $sql) or die(mysqli_error($con)); // TODO C4-3: Simpan error ke log, bukan ke output
 
-// TODO C1-6: Verifikasi password pakai password_verify(), bukan banding plaintext
+// TODO C1-6: Verifikasi password pakai password_verify(), bukan plaintext
 if (mysqli_num_rows($res) === 1) {
     $row = mysqli_fetch_assoc($res);
 

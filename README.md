@@ -22,16 +22,21 @@ phplogin_lab/
 ---
 
 ## 2  Requirements
-
+1. **Windows**
 | Item | Version |
 |------|---------|
 | **XAMPP** | PHP 8.x + MySQL 8.x bundle |
 | Browser | Chrome / Edge / Firefox |
-
-
+2. **Linux**
+| Component | Tested on |
+|-----------|-----------|
+| Apache Web Server | apache2 (2.4.x) |
+| PHP | php 8.x (with `mysqli` extension) |
+| MySQL / MariaDB | mysql‑server 8.x **or** mariadb‑server 10.x |
+| Optional GUI | **phpMyAdmin** |
 ---
 
-## 3  Setup Steps (≈ 5 minutes)
+## 3  Setup Steps
 
 1. **Install XAMPP**
 
@@ -41,7 +46,7 @@ phplogin_lab/
 
 2. **Clone the lab**
 
-   * CLone the project:
+   * Clone the project:
 
      ```
      git clone https://gitlab.com/cretoxyrhina/phplogin.git
