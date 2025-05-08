@@ -41,7 +41,11 @@ phplogin_lab/
 
 2. **Clone the lab**
 
-   * git pull https://gitlab.com/cretoxyrhina/phplogin.git.  
+   * CLone the project:
+
+     ```
+     git clone https://gitlab.com/cretoxyrhina/phplogin.git
+     ```  
    * Move the folder to:
 
      ```
