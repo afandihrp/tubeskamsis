@@ -1,6 +1,6 @@
 # Insecure PHP‑Login
 
-A deliberately vulnerable PHP/MySQL login application for hands‑on project.
+A deliberately vulnerable PHP/MySQL login application for Spring 2025 ACK3HAB3 hands‑on project.
 
 ---
 
@@ -110,8 +110,7 @@ above.
 3. **Retest.**  
    The exploit should now fail.
 4. **Commit.**  
-   Save your work with a message like  
-   `fix(C1-3): switched to prepared statements`.
+   Save and documentate your work.
 
 ---
 
